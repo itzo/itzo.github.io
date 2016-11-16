@@ -1,2 +1,5 @@
 # itzo.github.io
-itzo.org web site
+
+Thank you GitHub for hosting my site :)
+
+[itzo.org](http://itzo.org "itzo.org")
