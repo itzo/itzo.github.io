@@ -249,8 +249,9 @@ nav.breadcrumbs {
 /* lightgallery */
 .lg-exif {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: calc(14px / var(--size-divisor));
+    line-height: calc(18px / var(--size-divisor));
+    width: calc(240px / var(--shrink-medium));
 }
 
 .lg-exif hr {
