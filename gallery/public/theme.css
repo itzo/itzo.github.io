@@ -179,6 +179,7 @@ header {
     font-size: calc(28px / var(--size-divisor));
     margin-bottom: calc(32px / var(--size-divisor));
     padding-left: 1%;
+    padding-top: 1%;
 }
 
 nav.breadcrumbs {
@@ -189,8 +190,13 @@ nav.breadcrumbs {
     padding-left: 1%;
 }
 
+#center {
+    display: flex;
+    justify-content: center;
+}
+
 #container {
-    padding: 5%;
+    padding: 3%;
 }
 
 #albums {
