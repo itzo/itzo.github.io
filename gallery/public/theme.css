@@ -156,7 +156,6 @@ nav.pagination a {
   --shrink-medium: 2.5;
   --shrink-more: 5;
 }
-
 @media (min-width: 576px) {
   :root {
     --size-divisor: 1.3;
@@ -171,15 +170,6 @@ nav.pagination a {
     --shrink-more: 1;
   }
 }
-/*
-@media (min-width: 992px) { 
-  :root {
-    --size-divisor: 1;
-  }
-}
-*/
-
-
 
 body {
     background-color: #f9f9f9;
@@ -188,6 +178,7 @@ body {
 header {
     font-size: calc(28px / var(--size-divisor));
     margin-bottom: calc(32px / var(--size-divisor));
+    padding-left: 1%;
 }
 
 nav.breadcrumbs {
@@ -195,10 +186,15 @@ nav.breadcrumbs {
     font-size: calc(20px / var(--size-divisor));
     margin-bottom: calc(38px / var(--shrink-medium));
     padding: 0em 0em 0.8em 0.1em;
+    padding-left: 1%;
 }
 
 #container {
-    padding: calc(80px / var(--shrink-more));
+    padding: 5%;
+}
+
+#albums {
+    padding-left: 1%;
 }
 
 #albums a {
@@ -230,16 +226,26 @@ nav.breadcrumbs {
     visibility: hidden;
 }
 
+#media {
+    max-width: calc(930px / var(--size-divisor));
+}
+
 #media li {
-    margin-right: calc(14px / var(--shrink-more));
-    margin-bottom: calc(6px / var(--shrink-more));
+    margin-right: 0;
+    margin-bottom: calc(4px / var(--shrink-more));
+    width: 32%;
+    margin-left: 1%;
+}
+
+#media a {
+    width: 100%;
 }
 
 #media img {
     border-radius: 0px;
     -webkit-filter: brightness(100%);
-    width: calc(160px / var(--size-divisor));
-    height: calc(160px / var(--size-divisor));
+    width: 100%;
+    height: 100%;
 }
 
 #media img:hover {
